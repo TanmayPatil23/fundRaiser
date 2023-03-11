@@ -1,0 +1,35 @@
+.eli1{
+    float: left;
+    width: 30%;
+    padding: 15px;
+}
+.eli2{
+    float: left;
+    width: 70%;
+    padding: 15px;
+}
+.eli:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.eli h1{
+    font-size: 23px;
+    color:#0b6099;
+    font-weight: bold;
+}
+.eli img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+.main{
+    padding: 45px 45px 45px 45px;
+}
+.content{
+    font-size: 33px;
+    /* color:#0b6099; */
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
