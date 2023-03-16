@@ -14,7 +14,7 @@ const Agencylogin = () => {
   const loginAgencyUser = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("/agencylogin", {
+    const res = await fetch("http://localhost:5000/agencylogin", {
       // mode: 'no-cors',
       method: "POST",
       headers: {

@@ -17,7 +17,7 @@ const Agencydashboard = () => {
     const [getuserdata, setUserdata] = useState([]);
 
     const getdata = async () => {
-    const res = await fetch(`/agencydashboard/${username}`, {
+    const res = await fetch(`http://localhost:5000/agencydashboard/${username}`, {
         method: "GET",
         headers: {
           "Content-Type": "application/json"

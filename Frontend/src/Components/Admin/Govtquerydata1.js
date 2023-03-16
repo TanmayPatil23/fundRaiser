@@ -12,7 +12,7 @@ const Govtquerydata = () => {
 
     const getdata = async (e) => {
        
-        const res = await fetch("/agencyapplications", {
+        const res = await fetch("http://localhost:5000/agencyapplications", {
             method: "GET",
             headers: {
             "Content-Type": "application/json"

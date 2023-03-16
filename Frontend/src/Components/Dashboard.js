@@ -18,7 +18,7 @@ const Dashboard = () => {
       const [getuserdata, setUserdata] = useState([]);
   
       const getdata = async () => {
-      const res = await fetch(`/dashboard`, {
+      const res = await fetch(`http://localhost:5000/dashboard`, {
           method: "GET",
           headers: {
             "Content-Type": "application/json"

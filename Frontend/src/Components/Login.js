@@ -13,7 +13,7 @@ const Login = () => {
 
     e.preventDefault();
 
-    const res = await fetch("/login", {
+    const res = await fetch("http://localhost:5000/login", {
       // mode: 'no-cors',
       method: "POST",
       headers: {

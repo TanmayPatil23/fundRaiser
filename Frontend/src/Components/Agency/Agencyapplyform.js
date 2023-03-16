@@ -39,7 +39,7 @@ const Agencyapplyform = () => {
         
         const {type,name,email,phone,website,address,district,state,pin,year,cin,pan,desc} = inpval;
 
-        const res = await fetch("/agencyapplyform",{
+        const res = await fetch("http://localhost:5000/agencyapplyform",{
             method : "POST",
             headers:{
                 "Content-Type": "application/json"

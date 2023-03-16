@@ -55,7 +55,7 @@ const Apply = () => {
         const temp5 = false;
 
 
-        const res = await fetch("/apply",{
+        const res = await fetch("http://localhost:5000/apply",{
             method : "POST",
             headers:{
                 "Content-Type": "application/json"

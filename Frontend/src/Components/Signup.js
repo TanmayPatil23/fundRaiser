@@ -15,7 +15,7 @@ const Signup = () => {
     e.preventDefault();
 
     if (udid && phone && password) {
-      const res = await fetch("/signup", {
+      const res = await fetch("http://localhost:5000/signup", {
         // mode: 'no-cors',
         method: "POST",
         headers: {

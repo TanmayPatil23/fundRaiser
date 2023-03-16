@@ -28,7 +28,7 @@ const Govtaddagency = () => {
         
         const {agencyname,username,password} = inpval;
     
-        const res = await fetch("/govtaddagency",{
+        const res = await fetch("http://localhost:5000/govtaddagency",{
             method : "POST",
             headers:{
                 "Content-Type": "application/json"

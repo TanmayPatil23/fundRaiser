@@ -7,7 +7,7 @@ const Govtapplications = () => {
   const [getuserdata, setUserdata] = useState([]);
 
   const getdata = async (e) => {
-    const res = await fetch("/govtapplications", {
+    const res = await fetch("http://localhost:5000//govtapplications", {
       method: "GET",
       headers: {
         "Content-Type": "application/json"

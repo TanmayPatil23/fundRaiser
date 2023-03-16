@@ -12,7 +12,7 @@ const Govtlogin = () => {
   const loginGovtUser = async (e) => {
     e.preventDefault();
 
-    const res = await fetch("/govtlogin", {
+    const res = await fetch("http://localhost:5000//govtlogin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
