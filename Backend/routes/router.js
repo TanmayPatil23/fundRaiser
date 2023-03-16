@@ -8,9 +8,11 @@ const users = require("../models/beneficiaryloginSchema");
 const contactforms = require("../models/contactFormSchema");
 const multer = require('multer')
 
+
 /*router.get("/",(req,res)=>{
     console.log("connect");
 })*/
+
 
 //Configuration for Multer
 const imageStorage = multer.diskStorage({
@@ -198,7 +200,6 @@ router.post("/agencylogin", async (req, res) => {
     }
     res.status(200).json({message: "Agency official Logged in successfully"});
   });
-
 
 /*************************************************************************/
 
