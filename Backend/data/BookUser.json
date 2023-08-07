@@ -1,0 +1,22 @@
+[
+    {
+        "bookid":101,
+        "userid":1001
+    },
+    {
+        "bookid":101,
+        "userid":2001
+    },
+    {
+        "bookid":101,
+        "userid":3001
+    },
+    {
+        "bookid":102,
+        "userid":1001
+    },
+    {
+        "bookid":102,
+        "userid":2001
+    }
+]

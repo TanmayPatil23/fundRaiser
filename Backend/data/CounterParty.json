@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1001,
+        "name": "Google Cloud"
+    },
+    {
+        "id": 1002,
+        "name": "Microsoft Azure"
+    },
+    {
+        "id": 1003,
+        "name": "Amazon Web Services"
+    }
+]

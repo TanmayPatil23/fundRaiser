@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "bookid": 102,
+        "counterpartyid": 1001,
+        "securityid": 1001,
+        "quantity": 2,
+        "status": "Settled",
+        "price": 200,
+        "buySell": "Buy",
+        "tradeDate": "2021-01-01",
+        "settlementDate": "2023-06-01" 
+    },
+    {
+        "id": 2,
+        "bookid": 101,
+        "counterpartyid": 1002,
+        "securityid": 1003,
+        "quantity": 3,
+        "status": "Not-Settled",
+        "price": 150,
+        "buySell": "Sell",
+        "tradeDate": "2023-04-20",
+        "settlementDate": "2023-12-20" 
+    },
+    {
+        "id": 3,
+        "bookid": 101,
+        "counterpartyid": 1002,
+        "securityid": 1002,
+        "quantity": 6,
+        "status": "Settled",
+        "price": 450,
+        "buySell": "Buy",
+        "tradeDate": "2020-10-30",
+        "settlementDate": "2022-10-30" 
+    },
+    {
+        "id": 4,
+        "bookid": 102,
+        "counterpartyid": 1003,
+        "securityid": 1004,
+        "quantity": 5,
+        "status": "Settled",
+        "price": 400,
+        "buySell": "Sell",
+        "tradeDate": "2022-05-25",
+        "settlementDate": "2023-03-10" 
+    },
+    {
+        "id": 5,
+        "bookid": 101,
+        "counterpartyid": 1001,
+        "securityid": 1005,
+        "quantity": 18,
+        "status": "Not-Settled",
+        "price": 900,
+        "buySell": "Buy",
+        "tradeDate": "2020-12-15",
+        "settlementDate": "2024-12-15"
+    }
+]

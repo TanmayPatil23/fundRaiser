@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1001,
+        "isin": "IN123456A78B",
+        "cusip": 123456121,
+        "issuer": "Reserve Bank Of India",
+        "maturityDate": "2023-08-02",
+        "coupon": "CPNCD001",
+        "type": "GOVT",
+        "faceValue": 100,
+        "status": "Matured"
+    },
+    {
+        "id": 1002,
+        "isin": "US123456A78C",
+        "cusip": 123456122,
+        "issuer": "Morgan Stanley",
+        "maturityDate": "2023-08-12",
+        "coupon": "CPNCD002",
+        "type": "CORP",
+        "faceValue": 75,
+        "status": "Not-Matured"
+    },
+    {
+        "id": 1003,
+        "isin": "US123456A78D",
+        "cusip": 123456123,
+        "issuer": "Bank Of America",
+        "maturityDate": "2023-06-12",
+        "coupon": "CPNCD003",
+        "type": "GOVT",
+        "faceValue": 50,
+        "status": "Matured"
+    },
+    {
+        "id": 1004,
+        "isin": "UK123456A78E",
+        "cusip": 123456124,
+        "issuer": "Barclays",
+        "maturityDate": "2023-07-24",
+        "coupon": "CPNCD004",
+        "type": "CORP",
+        "faceValue": 80,
+        "status": "Matured"
+    },
+    {
+        "id": 1005,
+        "isin": "HK123456A78F",
+        "cusip": 123456125,
+        "issuer": "HSBC",
+        "maturityDate": "2022-12-25",
+        "coupon": "CPNCD005",
+        "type": "CORP",
+        "faceValue": 50,
+        "status": "Matured"
+    }
+]
